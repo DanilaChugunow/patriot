@@ -1,21 +1,54 @@
 @import "reset";
 
 header{
+    padding: 40px 0 40px;
+    background-image: url('./img/school.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     .header-top{
         h2{
 
         }
-        ul{
-            li{
-                a{
-                    font-family: 'Manrope', sans-serif;
-                    font-size: 1.2rem;
-                    line-height: 1.5;
+        nav{
+            padding: 40px 160px 40px 160px;
+            background-color: rgba(255, 255, 255, 0.771);
+            border-radius: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .p{
+                display: flex;
+                gap: 25px;
+                p{
+                    cursor: pointer;
+                    font-weight: 400;
+                    font-size: 21px;
                 }
             }
+            p{
+                font-family: 'Manrope', sans-serif;
+                font-size: 35px;
+                line-height: 1.5;
+                font-weight: 900;
+
+            }
+            
         }
         button{
-
+            padding: 20px 30px;
+            border-radius: 20px;
+            background: #F88F14;
+            color: white;
+            font-family: 'Manrope', sans-serif;
+            font-weight: 800;
+            font-size: 27px;    
         }
+    }
+}
+.m-history{
+    h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

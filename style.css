@@ -18,6 +18,7 @@ a {
 
 button {
   border: none;
+  cursor: pointer;
 }
 
 .container {
@@ -25,8 +26,67 @@ button {
   margin: 0 auto;
 }
 
-header .header-top ul li a {
-  font-family: "Manrope", sans-serif;
-  font-size: 1.2rem;
+header {
+  padding: 40px 0 40px;
+  background-image: url("./img/school.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .header-top nav {
+  padding: 40px 160px 40px 160px;
+  background-color: rgba(255, 255, 255, 0.771);
+  border-radius: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-top nav .p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+}
+
+header .header-top nav .p p {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 21px;
+}
+
+header .header-top nav p {
+  font-family: 'Manrope', sans-serif;
+  font-size: 35px;
   line-height: 1.5;
-}/*# sourceMappingURL=style.css.map */
+  font-weight: 900;
+}
+
+header .header-top button {
+  padding: 20px 30px;
+  border-radius: 20px;
+  background: #F88F14;
+  color: white;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  font-size: 27px;
+}
+
+.m-history h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
