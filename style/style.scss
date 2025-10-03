@@ -1,10 +1,13 @@
 @import "reset";
 @import "victory";
+
+
 body{
     background:(#1b1c15); 
     overflow-x: hidden;
 
 }
+
 header{
     
     padding: 0px 0 40px;
@@ -121,7 +124,7 @@ header{
             font-size: 29px;
             max-width: 760px;
         }
-         button{
+         a{
             padding: 10px 20px;
             border-radius: 20px;
             background: #F88F14;
@@ -132,8 +135,10 @@ header{
             width: 120px;    
             margin-top: 20px;
             transition: 0.2s;
+            display: flex;
+            justify-content: center;
         }
-        button:hover{
+        a:hover{
             scale: 1.1;
             background: #ff2c06;
         }
@@ -326,7 +331,9 @@ footer{
 .foot-page-two{
     margin-top: -50px;
 }
+
 .slide-sec{
+    padding-bottom: 50px;
     background: linear-gradient(to bottom  , #1b1c15, #3C3D2E); 
     .info{
         font-family: 'Manrope', sans-serif;
@@ -334,6 +341,7 @@ footer{
                 line-height: 1.5;
                 color: white;
                 padding-top: 20px;
+            
     }
 }
 .revi{
@@ -348,6 +356,577 @@ footer{
                 border-radius: 5px;
             }
         }
+        p{
+                margin-top: 15px;
+                padding-bottom: 15px;
+            color: white;
+            font-family: 'Manrope', sans-serif;
+                font-size: 22px;
+                line-height: 1.5;
+                font-weight: 400;
+        }
+    }
+    
+}
+.arrows{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    svg{
+        cursor: pointer;
+    }
+}
+.slide2{
+    img{
+        height: 240px;
+    }
+}
+.info-p{
+            color: white;
+            font-family: 'Manrope', sans-serif;
+                font-size: 22px;
+                line-height: 1.5;
+                max-width: 500px;   
+                a{
+                    color: #F88F14;
+                }
+}
+
+
+
+
+
+
+.about-us{
+
+    h1{
+        color: white;
+            font-family: 'Manrope', sans-serif;
+                font-size: 42px;
+                line-height: 1.5;
+                font-weight: 900;
+                margin-bottom: 30px;
+    }
+    .about{
+        
+        display: flex;
+        justify-content: space-between;
+
+        p{
+            color: white;
+            font-family: 'Manrope', sans-serif;
+                font-size: 22px;
+                line-height: 1.5;
+                max-width: 500px;
+        }
+        img{
+            position: relative;
+            width: 600px;
+            height: 400px;
+            border-radius: 10px;
+        }
+    }
+}
+.aboutt-us{
+    position: relative;
+    .ell{
+        position: absolute;
+        right: 0;
+        top: -100px;
+    }
+}
+.locate{
+    padding-bottom: 40px;
+    h2{
+        color: white;
+            font-family: 'Manrope', sans-serif;
+                font-size: 42px;
+                line-height: 1.5;
+                font-weight: 900;
+                margin-bottom: 30px;
+    }
+    position: relative;
+    margin-top: 90px;
+    &__info{
+        display: flex;
+        justify-content: space-between;
+       iframe{
+        border-radius: 10px;
+        width: 500px;
+        height: 300px;
+       }
+       .p-info{
+        display: flex;
+        flex-direction: column;
+        p:first-child{
+            margin-bottom: 10px;
+        }
+       }
+    }
+}
+.symbol{
+    position: relative;
+    padding-top: 110px;
+    h2{
+        color: white;
+            font-family: 'Manrope', sans-serif;
+                font-size: 42px;
+                line-height: 1.5;
+                font-weight: 900;
+                margin-bottom: 30px;
+    }
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 400px;
+            height: 260px;
+            border-radius: 20px;
+        }
+        p{
+            font-size: 31px;
+            span{
+                color:#F88F14;
+            }
+        }
+    }
+    &__bottom{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 400px;
+            border-radius: 20px;
+        }
+        p{
+            font-size: 29px;
+        }
+    }
+}
+.coop{
+    position: relative;
+    padding-top: 110px;
+    &__top{
+        p{
+            font-size: 19px;
+        }
+        img{
+            height: 300px;
+        }
+    }
+    &__bottom{
+        margin-top: 50px;
+        img{
+            height: 390px;
+        }
+        ul{
+            list-style:circle;
+            .coop-title{
+                font-weight: 900;
+                list-style: none;
+                font-size: 26px;
+            }
+            li{
+                font-size: 18px;
+            }
+        }
+    }
+}
+.peace{
+    position: relative;
+             background: linear-gradient(to bottom  , #1b1c15, #3C3D2E); 
+
+    padding-top: 110px;
+    padding-bottom: 40px;
+    h2{
+       color: white;
+            font-family: 'Manrope', sans-serif;
+                font-size: 42px;
+                line-height: 1.5;
+                font-weight: 900;
+                margin-bottom: 30px; 
+    }
+    .peace-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 500px;
+            border-radius: 20px;
+            position: relative;
+            z-index: 999;
+        }
     }
 }
 
+
+.ell2{
+    position: absolute;
+    bottom: -50%;
+    left: -20%;
+    z-index: -999;
+}
+.ell3{
+    position: absolute;
+    right: -20%;
+    bottom: -50%;
+    z-index: -999;
+}
+.ell4{
+    position: absolute;
+    top: 0;
+    right: -16%;
+    
+}
+.svt-p{
+    span{
+        font-weight: 900;
+        margin-right: 40px;
+    }
+    background: rgba(255, 255, 255, 0.65);
+           padding: 12px;
+           border-radius: 30px;
+            color: rgb(0, 0, 0);
+            font-family: 'Manrope', sans-serif;
+                font-size: 20px;
+                line-height: 1.5;
+                font-weight: 400;
+                max-width: 600px;
+}
+.svt-title{
+        color: rgb(0, 0, 0);
+            font-family: 'Manrope', sans-serif;
+                font-size: 62px;
+                line-height: 1.5;
+                font-weight: 900;
+                margin-bottom: 15px;
+}
+
+.svt-1{
+    padding: 30px 0;
+    background-image: url('../img/svt-pomnit/22.06.1941.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .svt-rl{
+        display: flex;
+        justify-content: space-between;
+    }
+    h2{
+        color: rgb(0, 0, 0);
+            font-family: 'Manrope', sans-serif;
+                font-size: 62px;
+                line-height: 1.5;
+                font-weight: 900;
+                margin-bottom: 15px;
+    }
+    &__l{
+        p{
+           background: rgba(255, 255, 255, 0.65);
+           padding: 12px;
+           border-radius: 30px;
+            color: rgb(0, 0, 0);
+            font-family: 'Manrope', sans-serif;
+                font-size: 20px;
+                line-height: 1.5;
+                font-weight: 400;
+                max-width: 600px;
+        }
+    }
+    &__r{
+        padding-top: 43px;
+        img{
+            width: 600px;
+            border: 3px solid black;
+            border-radius: 20px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        p{
+            margin-top: -5px;
+            background: rgba(255, 255, 255, 0.65);
+           padding: 12px 0 12px 12px;
+           border-radius: 30px;
+            color: rgb(0, 0, 0);
+            font-family: 'Manrope', sans-serif;
+                font-size: 18px;
+                line-height: 1.5;
+                font-weight: 400;
+                max-width: 600px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                width: 592.5px;
+        }
+    }
+}
+.s-border{
+    padding: 30px 0;
+    position: relative;
+}
+.s-border::after{
+    position: absolute;
+    content: '';
+    width: 2000px;
+    height: 10px;
+    background: #000000;
+    bottom: 0px;
+}
+
+.header3{
+    .header-top{
+    margin-bottom: 0;
+
+    }
+}
+.svt-2{
+    background-image: url('../img/svt-pomnit/1945-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    .svt-2-inf{
+        display: flex;
+        justify-content: space-between;
+    img{
+        width: 600px;
+        height: 450px;
+        border: 3px solid black;
+            border-radius: 20px;
+    }
+    }
+    
+}
+.svt-3{
+    background-image: url('../img/svt-pomnit/bagration-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    ul{
+        width: 400px !important;
+        background: rgba(255, 255, 255, 0.65);
+
+        border-radius: 20px;
+        .main-bg-li{
+            font-size: 27px;
+            font-weight: 900;
+        }
+        li{
+            
+           padding: 12px;
+           border-radius: 30px;
+            color: rgb(0, 0, 0);
+            font-family: 'Manrope', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+        }
+    }
+    .bagration-inf{
+        // display: flex;
+        // justify-content: space-between;
+        // gap: 15px;
+        img{
+            height: 300px;
+            margin-top: 10px;
+            border: 3px solid black;
+            border-radius: 20px;
+        }
+        .svt-p{
+            max-width: 900px;
+            // height: 200px;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        p:last-child{
+            margin-top: 10px;
+            height: 160px !important;
+        }
+    }
+    .bg-img{
+        display: flex;
+        gap: 10px;
+    }
+}
+.bg-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    .bg-img{
+        display: flex;
+        align-items: center;
+        iframe{
+            width: 450px;
+            height: 290px;
+            border-radius: 20px;
+        }
+    }
+    
+}
+.svt-4{
+    background-image: url('../img/svt-pomnit/lg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.sv4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    iframe{
+        border-radius: 20px;
+        width: 600px;
+        height: 380px;
+    }
+}
+.bg-content{
+    p{
+        font-size: 16px;
+        margin-top: 15px;
+    }
+}
+.footer3{
+    padding-top: 70px;
+}
+
+@media (max-width:960px){
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        padding: 0 20px ;
+    }
+    .video-item{
+        iframe{
+            width: 450px !important;
+        }
+    }
+    .revi .name .name-img img{
+        width: 300px;
+        height: 200px;
+    }
+    .revi .name p{
+        font-size: 15px;
+    }
+    .sedsko-img{
+        width: 300px;
+        height: 500px;
+    }
+    .stolyarovi p, h3{
+        max-width: 300px;
+    }
+    .drozdov .img{
+        flex-wrap: wrap;
+    }
+    .kozlovskij .img{
+        flex-wrap: wrap;
+    }
+    .first .img{
+        flex-wrap: wrap;
+    }
+    .kot, .nedogorenko, .ustimenko{
+        flex-wrap: wrap;
+    }
+    .person .main::after{
+        width: 127.2%;
+    }
+    .svt-rl, .svt-2-inf, .bg-info{
+        flex-wrap: wrap;
+    }
+    .svt-2-inf{
+        gap: 20px;
+    }
+    .bg-content{
+        display: flex;
+        gap: 15px;
+        align-items: start;
+    }
+    .sv4{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .bg-content .svt-p{
+        font-size: 30px !important;
+    }
+    .s-border::after{
+        width: 100%;
+    }
+    .about-us .about img{
+        width: 350px;
+        height: 250px;
+    }
+    .locate__info .p-info p{
+        // font-size: 19px;
+    }
+    .locate__info{
+        gap: 20px;
+    }
+    .ell3{
+        display: none;
+    }
+    
+}
+@media (max-width:320px){
+    .container{
+        padding: 20px;
+    }
+    nav{
+        display: none !important;
+    }
+    header .header-mid h1{
+        font-size: 23px;
+    }
+    header{
+        padding: 0 !important;
+    }
+    .header-top{
+        margin-bottom: 0 !important; 
+    }
+    header .header-mid p{
+        font-size: 20px;
+    }
+    .header-bottom h2{
+        font-size: 31px;
+    }
+    .header-bottom p{
+        padding: 15px;
+        font-size: 17px;
+    }
+    .m-history .video .video-item iframe{
+        width: 280px !important;
+        height: 200px !important;
+        
+    }
+    .tab-parent{
+        flex-wrap: wrap;
+        .tabContent{
+            padding: 10px;
+        }
+    }
+    .ww2 .tabb{
+        font-size: 17px;
+        padding: 10px;
+        ul{
+            list-style: none;
+            li{
+                font-size: 15px;
+            }
+        }
+    }
+    .revi .name .name-img{
+        img{
+            display: none;
+        }
+        img:first-child{
+            display: block;
+            width: 270px;
+        }
+    }
+      .revi .name p{
+        font-size: 13px;
+      }
+
+      .footer{
+        flex-wrap: wrap;
+        gap: 14px;
+      }
+    
+}
